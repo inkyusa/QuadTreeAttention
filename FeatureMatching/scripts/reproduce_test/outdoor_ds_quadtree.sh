@@ -9,7 +9,7 @@ cd $PROJECT_DIR
 
 data_cfg_path="configs/data/megadepth_test_1500.py"
 main_cfg_path="configs/loftr/outdoor/loftr_ds_quadtree.py"
-ckpt_path="outdoor.ckpt"
+ckpt_path="checkpoints/outdoor.ckpt"
 dump_dir="dump/loftr_ds_outdoor"
 profiler_name="inference"
 n_nodes=1  # mannually keep this the same with --nodes
