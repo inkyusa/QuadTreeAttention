@@ -9,7 +9,7 @@ cd $PROJECT_DIR
 
 data_cfg_path="configs/data/scannet_test_1500.py"
 main_cfg_path="configs/loftr/indoor/scannet/loftr_ds_quadtree_eval.py"
-ckpt_path="indoor.ckpt"
+ckpt_path="checkpoints/indoor.ckpt"
 dump_dir="dump/loftr_ds_indoor"
 profiler_name="inference"
 n_nodes=1  # mannually keep this the same with --nodes
